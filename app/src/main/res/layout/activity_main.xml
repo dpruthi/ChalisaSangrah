@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange3"
+    tools:context="com.deep.chalisasangrah.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:onClick="clickHandlerh"
+        android:text="Hanuman Chalisa" />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:onClick="clickHandlers"
+        android:text="Shiv Chalisa" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:onClick="clickHandlersar"
+        android:text="Saraswati Chalisa" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:onClick="clickHandlersai"
+        android:text="Sai Chalisa" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/orange"
+        android:onClick="clickHandlerd"
+        android:text="Durga Chalisa" />
+</LinearLayout>

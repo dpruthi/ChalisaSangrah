@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bwq="http://schemas.android.com/tools">
+
+        <item android:id="@+id/Settings"
+        android:title="Setting"/>
+
+    <item android:id="@+id/Shareapp"
+        android:title="Share app"
+        bwq:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        bwq:showAsAction="always"/>
+
+    <item android:id="@+id/About"
+        android:title="About"/>
+
+    <item android:id="@+id/Rateus"
+        android:title="Rate us"/>
+
+    <item android:id="@+id/Search"
+        android:title="Under Construction"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_search"/>
+
+</menu>
+
+
